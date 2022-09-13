@@ -1,3 +1,1 @@
-# Portfolio
-
-# This website was created for the BTT10 at Bell High School.
+This website was created for the BTT10 course at Bell High School.

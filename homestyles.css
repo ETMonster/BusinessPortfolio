@@ -26,6 +26,7 @@ body {
 .nav-link :hover{
     text-decoration: underline;
     cursor: pointer;
+    color: black;
 }
 
 a:link { text-decoration: none; color: black; }

@@ -8,6 +8,12 @@ body {
 
 .nav-container {
     text-align: center;
+    
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
 }
 
 .nav > li {
@@ -21,3 +27,8 @@ body {
     text-decoration: underline;
     cursor: pointer;
 }
+
+a:link { text-decoration: none; color: black; }
+a:visited { text-decoration: none; color: black; }
+a:hover { text-decoration: none; color: black; }
+a:active { text-decoration: none; color: black; }

@@ -46,6 +46,40 @@ body {
     color: black;
 }
 
+.mobile-nav-container {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    margin-left: -30px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.mobile-nav > li {
+    margin-top: 5px;
+    list-style: none;
+    font-size: large;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-container {
+        display: none;
+    }
+    .mobile-nav-container {
+        display: block;
+    }
+
+    .logo-image {
+        width: 40px;
+    }
+}
+
 a:link { text-decoration: none; color: black; }
 a:visited { text-decoration: none; color: black; }
 a:hover { text-decoration: none; color: black; }

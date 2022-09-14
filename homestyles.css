@@ -69,10 +69,16 @@ body {
     font-weight: 500;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 780px) {
+    .nav > li {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .body-container {
         margin-left: 30%;
-        margin-right: 0;
+        margin-right: 3%;
     }
 
     .nav-container {

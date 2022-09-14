@@ -68,6 +68,11 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+    .body-container {
+        margin-left: 20%;
+        margin-right: 0;
+    }
+
     .nav-container {
         display: none;
     }

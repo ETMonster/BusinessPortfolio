@@ -75,26 +75,34 @@ body {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 780px) {
     .body-container {
-        margin-left: 30%;
-        margin-right: 3%;
+        /*margin-left: 30%;
+        margin-right: 3%;*/
+
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .nav-container {
         display: none;
     }
-    .mobile-nav-container {
+    /*.mobile-nav-container {
         display: block;
     }
 
     .mobile-nav > li {
         font-size: medium;
         font-weight: 400;
-    }
+    }*/
 
     .logo-image {
         width: 40px;
+    }
+
+    .home-image {
+        margin-top: 3px;
+        width: 100%;
     }
 }
 
@@ -103,8 +111,50 @@ a:visited { text-decoration: none; color: black; }
 a:hover { text-decoration: none; color: black; }
 a:active { text-decoration: none; color: black; }
 
+.home-image-container {
+    position: relative;
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
 .home-image {
-    width: 100%;
-    margin-top: 10px; 
+    width: 65%;
     border-radius: 15px;
+
+    transition: 0.3s;
+}
+
+.home-page-text {
+    display: none;
+    color: white;
+
+    pointer-events: none;
+
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.home-image:hover{
+    filter: blur(2px) brightness(50%);
+    -webkit-filter: blur(2px) brightness(50%);
+
+    cursor: pointer;
+}
+
+.home-image:hover ~ .home-page-text{
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

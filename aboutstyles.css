@@ -1,53 +1,3 @@
-body {
-    font-family: "Raleway";
-}
-
-.body-container {
-    margin: 0;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.logo-container {
-    display: flex;
-    justify-content: center;
-
-    user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
-}
-
-.logo-image {
-    margin-top: 10px;
-    width: 60px;
-}
-
-.nav-container {
-    text-align: center;
-    
-    user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
-}
-
-.nav > li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 40px;
-    font-size: larger;
-    font-weight: 600;
-}
-
-.nav-link :hover{
-    text-decoration: underline;
-    cursor: pointer;
-    color: black;
-}
-
 @media only screen and (max-width: 620px) {
     .p1 > .image, .p2 > .image, .p3 > .image{
         display: none;
@@ -55,21 +5,6 @@ body {
 }
 
 @media only screen and (max-width: 795px) {
-    .body-container {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .nav-container > ul > li{
-        font-size: medium;
-        font-weight: 400;
-        margin-right: 5%;
-    }
-
-    .logo-image {
-        width: 40px;
-    }
-
     .p1 > .text {
         flex: 3 0 0%;
         text-align: justify;
@@ -87,11 +22,6 @@ body {
         font-weight: 600;
     }
 }
-
-a:link { text-decoration: none; color: black; }
-a:visited { text-decoration: none; color: black; }
-a:hover { text-decoration: none; color: black; }
-a:active { text-decoration: none; color: black; }
 
 .about-page-image-container {
     position: relative;

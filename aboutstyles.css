@@ -88,11 +88,6 @@
     margin: auto;
 }
 
-.p4 > .image > img {
-    width: 100%;
-    border-radius: 15px;
-}
-
 .p4 > .text {
     margin-bottom: 90px;
     text-align: center;

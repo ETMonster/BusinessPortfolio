@@ -30,6 +30,10 @@
     height: 325px;
 }
 
+.notes-container .r1 {
+    margin-top: 50px;
+}
+
 .notes-container .d4 {
     visibility: hidden;
 }
@@ -53,6 +57,12 @@
     text-decoration: underline;
 }
 
+@media only screen and (min-width: 1200px) {
+    .notes-title {
+        font-size: xx-large;
+    }
+}
+
 @media only screen and (min-width: 1450px) {
     .notes-container {
         padding: 0 50px; 
@@ -67,8 +77,18 @@
     }
 }
 
-@media only screen and (max-width: 795px) {
+@media only screen and (max-width: 610px) {
     .notes-container #r {
-        flex-direction: column;
+        display: block;
+        height: 100%;
+    }
+
+    .notes-container #t {
+        margin-top: 50px;
+        font-size: xx-large;
+    }
+    
+    .notes-container #doc {
+        display: none;
     }
 }

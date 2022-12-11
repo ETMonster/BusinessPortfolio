@@ -84,6 +84,11 @@
 
 .infographic-container #infographic {
     width: 40%;
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: rgb(88,84,92);
 }
 
 @media only screen and (min-width: 1200px) {

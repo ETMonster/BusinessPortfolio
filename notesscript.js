@@ -37,7 +37,6 @@ function tobiChangePage(pg) {
     document.getElementById("tobi").src = tobiLutkePres[pg];
     if (tobiCurrentPage == tobiLutkePres.length - 1) {
         tobiCurrentPage = 0;
-        changePage(tobiCurrentPage);
         return;
     }
     tobiCurrentPage++;
@@ -49,7 +48,6 @@ function techChangePage(pg) {
     document.getElementById("tech").src = techPres[pg];
     if (techCurrentPage == techPres.length - 1) {
         techCurrentPage = 0;
-        changePage(techCurrentPage);
         return;
     }
     techCurrentPage++;
